@@ -9,7 +9,7 @@ interface DefaultLayoutProps {
 function DefaultLayout({ children }: DefaultLayoutProps) {
     return (
         <>
-            <div className="w-screen h-screen overflow-auto bg-slate-100">
+            <div className="w-screen h-screen overflow-auto bg-gray-200 grid place-items-center">
                 <main>{children}</main>
             </div>
             <ToastContainer
