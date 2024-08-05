@@ -3,13 +3,6 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-@font-face {
-    font-family: "fonarto";
-    src: url("/fonts/fonarto/fonarto.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 @layer base {
     html {
         font-family: "Montserrat", sans-serif;
@@ -29,26 +22,4 @@
     p {
         @apply mb-2;
     }
-}
-
-button[type="button"].btn {
-    @apply text-white bg-primary_1 hover:bg-opacity-80 focus:ring-2 focus:outline-none font-medium rounded px-6 py-2 text-center disabled:bg-opacity-40 disabled:cursor-not-allowed;
-}
-
-.highlight {
-    @apply font-bold text-yellow-600 underline;
-}
-
-.subtitle {
-    // text-shadow: 3px 3px 0px #373737;
-    line-height: 4rem !important;
-    // font-family: Montserrat;
-    font-weight: bold;
-
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-    color: white; /* Fill color */
-    -webkit-text-stroke-width: 1.5px; /* Stroke width */
-    -webkit-text-stroke-color: black; /* Stroke color */
-    -webkit-text-fill-color: white;
 }

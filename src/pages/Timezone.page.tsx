@@ -61,7 +61,7 @@ function TimezonePage() {
   return (
     <DefaultLayout>
       <div className="flex flex-col w-full mx-auto max-w-[800px] bg-white p-8 rounded-md shadow-md">
-        <h1 className="text-center mb-16"> 🌏 Time conversion</h1>
+        <h1 className="text-center mb-16"> Time conversion</h1>
         <div className="flex gap-4 p-4 items-center rounded-md">
           <Select
             showSearch
